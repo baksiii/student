@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work BD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <h2>Новая книга</h2>
+        <form method="POST" action="add_book.php">
+            <p>Название книги: <input type="text" name="title"></p>
+            <p>Автор: <input type="text" name="author"></p>
+            <input type="submit" value="ДОБАВИТЬ">
+        </form>
+    </div>
+
+    <div>
+        <h2>Найти книгу или произведения автора</h2>
+        <form method="GET" action="select_author.php">
+            <p>Автор: <input type="text" name="author"></p>
+            <input type="submit" value="ПОИСК">
+        </form>
+    </div>
+
+</body>
+
+</html>

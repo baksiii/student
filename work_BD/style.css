@@ -1,0 +1,29 @@
+button{
+    padding: 10px 20px;
+    background: #00A876;
+    outline: none;
+    border: none;
+    margin: 20px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+}
+input:focus{
+    border-bottom: 2px solid #00A876;
+}
+input[type="submit"]{
+    padding: 10px 20px;
+    background: #00A876;
+    outline: none;
+    border: none;
+    margin: 20px;
+    font-weight: bolder; 
+    color: white;
+}

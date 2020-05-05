@@ -1,0 +1,11 @@
+CREATE DATABASE BD_books
+CHARACTER SET utf8
+  COLLATE utf8_general_ci;
+
+USE BD_books;
+CREATE TABLE books (
+id INT AUTO_INCREMENT,
+title VARCHAR(100),
+author VARCHAR(100),
+PRIMARY KEY (id)
+);
