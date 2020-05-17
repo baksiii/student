@@ -1,0 +1,12 @@
+CREATE DATABASE balance
+CHARACTER SET utf8
+  COLLATE utf8_general_ci;
+
+USE balance;
+CREATE TABLE users (
+id INT AUTO_INCREMENT,
+login VARCHAR(100) UNIQUE,
+password VARCHAR(100),
+balance DECIMAL(10,2) NULL DEFAULT '300',
+PRIMARY KEY (id)
+);
